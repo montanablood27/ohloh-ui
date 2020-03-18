@@ -40,7 +40,6 @@ gem 'redis-rails', '>= 5.0.2'
 gem 'rubocop-rails', require: false
 gem 'rubocop-rspec', '> 1.28'
 gem 'sass-rails'
-gem 'secondbase'
 gem 'sidekiq'
 gem 'simplemde-rails'
 gem 'sprockets-rails', '~> 2.3.3'
