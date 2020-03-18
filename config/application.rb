@@ -43,6 +43,7 @@ module OhlohUi
                                          namespace: ENV['REDIS_NAMESPACE'], password: ENV['REDIS_PASSWORD'] }
 
     config.action_dispatch.default_headers = { 'X-Content-Type-Options' => 'nosniff' }
+    config.active_record.dump_schemas = :all
 
     Kaminari.configure do |config|
       config.page_method_name = :per_page_kaminari

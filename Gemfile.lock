@@ -44,6 +44,9 @@ GEM
       activemodel (= 4.2.11.1)
       activesupport (= 4.2.11.1)
       arel (~> 6.0)
+    activerecord-postgres-dump-schemas (0.1.0)
+      activerecord (< 5)
+      railties (< 5)
     activesupport (4.2.11.1)
       i18n (~> 0.7)
       minitest (~> 5.1)
@@ -565,6 +568,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin (= 1.0.0)
+  activerecord-postgres-dump-schemas
   airbrake (~> 5.5)
   aws-sdk (~> 2.3)
   bcrypt_pbkdf (~> 1.0)
@@ -661,4 +665,4 @@ DEPENDENCIES
   will_paginate-bootstrap
 
 BUNDLED WITH
-   2.0.2
+   1.17.3
